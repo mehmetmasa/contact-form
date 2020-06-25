@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="MContact - Modern Contact Form">
+    <meta name="keywords" content="contact, contact form, ajax contact form">
+    <meta name="author" content="Mehmet Maşa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/toastr.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>MContact - Modern Contact Form</title>
+</head>
+<body >
+<div class="container h-100 pl-0">
+    <div class="row h-100 justify-content-center align-items-center">
+            <!-- CARD -->
+            <div class="col-md-12 card shadow">
+                <!-- Form -->
+                <form class="p-lg-3 p-md-3 mt-3 ml-2" id="contactForm">
+                    <div class="col text-center">
+                        <h1>Modern Contact Form</h1>
+                        <p class="description">A contact form created using modern technologies that you can integrate into your site.</p>
+                    </div>
+                    <!-- Input fields -->
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                               <label for="name">Name <span class="compulsory">(*)</span></label>
+                               <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                               <label for="phone">Phone </label>
+                               <input type="text" class="form-control" id="phone" placeholder="05555555555">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="name">Email <span class="compulsory">(*)</span></label>
+                                <input type="text" class="form-control" name="email" id="email" placeholder="Your email adress">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="customerServices">Customer Services</label>
+                                <select  class="form-control" id="customerServices">
+                                    <option value="sales">Sales</option>
+                                    <option value="technical">Technical support</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="message">Message <span class="compulsory">(*)</span></label>
+                                <textarea class="form-control" id="message" name="message"  rows="3"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-customized mb-2">Send</button>
+                    <!-- End input fields -->
+                </form>
+                <!-- Form end -->
+            <!-- CARD END -->
+        </div>
+    </div>
+</div>
+</body>
+<script src="assets/js/jquery-3.4.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/axios.min.js"></script>
+<script src="assets/js/toastr.min.js"></script>
+<script src="assets/js/jquery.validate.min.js"></script>
+<script src="assets/js/main.js"></script>
+</html>

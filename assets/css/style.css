@@ -1,0 +1,16 @@
+/* -------------------------------------------------------------------
+ * Plugin Name           : MContact - Modern Contact Form
+ * Author Name           : Mehmet Maşa
+ * Created Date          : 12 March 2020
+ * Version               : 1.0.0
+ * File Name             : style.css
+------------------------------------------------------------------- */
+
+body,html {
+    background-color: #f3f3f3;
+    height: 100%;
+}
+
+.compulsory {
+    color: red;
+}
