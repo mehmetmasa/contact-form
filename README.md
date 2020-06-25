@@ -1,5 +1,5 @@
 Demo: 
-View <a href="contact.mehmetmasa.com.tr" >demo here</a>
+View <a href="https://contact.mehmetmasa.com.tr" >demo here</a>
 
 How to use?
 Make the smtp settings from the mail.php file located under the phpmailer folder.
